@@ -1,0 +1,104 @@
+body {
+  /* 'Caecilia' */
+  /* 'Lucida Console', 'Cousine' */
+  font-family: Verdana, Candara, Arial, Helvetica, Tahoma, sans-serif;
+  /* font-family: "palatino linotype", palatino, "calibri", "Trebuchet MS", Georgia, serif, Hei, SimSun, FangSong, KaiTi; */
+  line-height: 1.2;
+  /* font-size: 80%; */
+  background: white;
+  /* color: #222; */
+  padding: 1em;
+}
+h1,h2,h3 {
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  /* font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; */
+}
+a:link {
+  /*  color: #002; */
+  /* color:crimson; */
+  color:blue;
+  /* text-decoration:underline; */
+  text-decoration:none;
+  /* font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; */
+  /* font-size: 95%; */
+  font-weight: 500;
+}
+a:visited {
+  /* color:maroon; */
+  color:midnightblue;
+}
+a:hover {
+/*
+  color: #004;
+  background: #CCA;
+*/
+    /*  text-decoration:underline; */
+    color:crimson;
+}
+strong {
+  color: black;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 90%;
+  font-weight: 600;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ul {
+  margin: 0 0 0.5em 0;
+}
+
+table {
+  border-spacing: 0px 2px;
+}
+th {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0.25em 0.75em;
+}
+td {
+  vertical-align: top;
+  padding: 0 0.5em;
+}
+
+div.code {
+  font-family: Courier, monospace;
+  background: #DDD;
+  margin: 0 2em;
+  padding: 0 0.5em;
+}
+
+a img {
+	border-width: 0;
+}
+
+/* For domcollapse.js */
+.trigger {
+	cursor: pointer;
+	background-color: #f5f4f3;
+}		
+.trigger:hover {
+	background-color: #e0e4ff;
+}		
+.expanded {
+	cursor: pointer;
+	background-color: #f5f4f3;
+}
+.expanded:hover {
+	background-color: #e0e4ff;
+}
+.show {
+	position: static;
+	display: table;
+}
+.hide {
+	position: absolute;
+	left: -999em;
+	height: 1px;
+	width: 100px;
+	overflow: hidden;
+}
